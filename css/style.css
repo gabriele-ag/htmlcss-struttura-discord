@@ -1,0 +1,83 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    /* debug */
+    background-color: rgb(185, 222, 252);
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+.logo, .loginsite {
+    border: 1px solid black;
+    background-color: rgb(248, 207, 26);
+    width: 10%;
+    padding: 0 10px;
+    padding-top: 5px;
+}
+
+.loginsite {
+    text-align: right;
+}
+
+.nv-menu {
+    border: 1px solid black;
+    background-color: rgb(248, 207, 26);
+    width: 40%;
+    padding-top: 5px;
+}
+
+.nv-link {
+    list-style: none;
+    text-align: center;
+}
+
+.nv-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+
+
+
+
+/* section1 */
+.bg-section {
+    background-color: rgb(33, 48, 255);
+    height: 100px;
+}
+
+.section1 {
+    display: flex;
+    width: 60%;
+}
