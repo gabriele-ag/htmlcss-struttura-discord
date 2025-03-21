@@ -173,12 +173,13 @@ img {
 .bg-section6 {
     /* debug */
     background-color: rgb(39, 39, 39);
-    padding: 10px 190px 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .box6 {
     display: flex;
-    width: 95%;
+    width: 70%;
 }
 
 .box-sc6 {
