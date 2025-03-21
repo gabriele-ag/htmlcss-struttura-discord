@@ -37,7 +37,7 @@ img {
 }
 
 .logo, .loginsite {
-    border: 1px solid black;
+    /* debug */
     background-color: rgb(248, 207, 26);
     width: 10%;
     padding: 0 10px;
@@ -49,7 +49,7 @@ img {
 }
 
 .nv-menu {
-    border: 1px solid black;
+    /* debug */
     background-color: rgb(248, 207, 26);
     width: 40%;
     padding-top: 5px;
@@ -69,12 +69,14 @@ img {
 
 /* section1 */
 .bg-section1 {
+    /* debug */
     background-color: rgb(8, 84, 226);
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .box-sc1 {
+    /* debug */
     background-color: rgb(192, 34, 212);
     height: 500px;
     width: 55%;
@@ -82,13 +84,14 @@ img {
 
 /* section2-4 */
 .bg-section24 {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
     display: flex;
     justify-content: center;
 }
 
 .box-sc24 {
+    /* debug */
     background-color: rgb(7, 144, 223);
     height: 600px;
     width: 60%;
@@ -97,6 +100,7 @@ img {
 }
 
 .box2-sc24 {
+    /* debug */
     background-color: rgb(221, 117, 204);
     height: 600px;
     width: 40%;
@@ -106,14 +110,16 @@ img {
 
 /* section3 */
 .bg-section3 {
+    /* debug */
     background-color: rgb(219, 219, 219);
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
     display: flex;
     justify-content: center;
 }
 
 .box-sc3 {
+    /* debug */
     background-color: rgb(221, 117, 204);
     height: 600px;
     width: 40%;
@@ -123,6 +129,7 @@ img {
 
 
 .box2-sc3 {
+    /* debug */
     background-color: rgb(7, 144, 223);
     height: 600px;
     width: 60%;
@@ -132,19 +139,22 @@ img {
 
 /* section5 */
 .bg-section5 {
+    /* debug */
     background-color: rgb(219, 219, 219);
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .box-sc5 {
+    /* debug */
     background-color: rgb(25, 209, 108);
     height: 700px;
-    width: 70%;
+    width: 65%;
 }
 
 /* section6 */
 .bg-section6 {
+    /* debug */
     background-color: rgb(39, 39, 39);
     padding: 10px 190px 30px;
 }
@@ -155,16 +165,38 @@ img {
 }
 
 .box-sc6 {
+    /* debug */
     background-color: rgb(158, 62, 18);
     height: 600px;
     width: 60%;
 }
 
 .box2-sc6 {
+    /* debug */
     background-color: rgb(23, 175, 69);
-    border: 1px solid black;
     height: 600px;
     width: 30%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(39, 39, 39);
+    height: 60px;
+    padding-top: 20px;
+}
+.footersite {
+    /* debug */
+    background-color: rgb(248, 207, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 70%;
+}
+
+.footerlogo,.footerbutton {
+    background-color: rgb(158, 62, 18);
+    padding: 5px;
 }
 
 
