@@ -27,7 +27,6 @@ img {
     justify-content: center;
     align-items: center;
     height: 70px;
-
 }
 
 .menu {
@@ -69,15 +68,35 @@ img {
 
 
 
-
-
 /* section1 */
-.bg-section {
-    background-color: rgb(33, 48, 255);
-    height: 100px;
+.bg-section1 {
+    background-color: rgb(8, 84, 226);
+    padding: 50px 200px;
 }
 
-.section1 {
+.box-sc1 {
+    background-color: rgb(192, 34, 212);
+    height: 400px;
+    width: 80%;
+}
+
+/* section2 */
+.bg-section2 {
+    background-color: aliceblue;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
-    width: 60%;
+    justify-content: center;
+}
+
+.box-sc2 {
+    background-color: rgb(7, 144, 223);
+    height: 400px;
+    width: 80%;
+}
+
+.box2-sc2 {
+    background-color: rgb(221, 117, 204);
+    height: 400px;
+    width: 80%;
 }
